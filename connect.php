@@ -23,7 +23,7 @@ $stmt = sqlsrv_query( $conn, $tsql);
 if ( $stmt )
 {  
      echo "Statement executed.<br>\n";
-     echo $tsql
+     print($tsql)
 }   
 else   
 {  
